@@ -5,4 +5,5 @@
 ## ログ
 `New connection: ipaddress:port`
 `Connection lost after 31 seconds`
+
 初めてのコネクション。特に何かされたことはない。
