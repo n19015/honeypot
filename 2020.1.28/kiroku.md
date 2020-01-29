@@ -2,9 +2,42 @@
 初めてハニーポットを植えてみた。
 セキュリティが甘い所があると思うが、今後改善していく。
 
+植えたハニーポット: **cowrie**
+
 ## ログ
 01/28
 `New connection: ip address : port`
 `Connection lost after 31 seconds`
 
 初めてのコネクション。特に何かされたことはない。
+
+- - -
+
+01/29
+`login attempt [] succeeded`
+
+多分攻撃されました。
+
+
+`system`
+
+`sh`
+
+`shell`
+
+いろいろコマンド打ってる。
+
+
+`cat /proc/mounts; /bin/busybox OJGDK`
+
+OJGDKってなんでしょう。
+
+
+`exit`
+
+ファイルのなにかをコピーしたあと、それを消して帰っていきました。
+
+
+なにをしてるのかコマンドを見てても分からない...
+
+サーバーのセキュリティは大丈夫のはずです。
